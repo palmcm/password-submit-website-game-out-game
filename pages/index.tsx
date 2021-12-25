@@ -41,7 +41,7 @@ const Home: NextPage = () => {
     <div className="min-h-screen min-w-full bg-gradient-to-br from-green-400 to-blue-500">
       <MainLayout>
         <Title style={{color: "white", textAlign: "center"}}>
-          Nice, Show Me da Password Dude!!
+          Nice, Show Me da Password Dude!! This is Fake Website
         </Title>
         <div className="w-96 sm:flex-none flex-1 sm:m-0 m-4">
           <Card>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
           </Card>
         </div>
 
-        <Modal title="This is your Reward, Get it!! you sun of a beach!!" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+        <Modal title="There is no Reward but, Get it!! you sun of a beach!!" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
           <p>Wallet: MetaMask</p>
           <p>Chain: BSC</p>
           <p>Token: ...</p>
